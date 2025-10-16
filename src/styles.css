@@ -1,0 +1,21 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  background: linear-gradient(180deg,#f6f7f9 0%, #fff 40%);
+  color: #1a202c;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 28px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+section {
+  margin-bottom: 20px;
+}
