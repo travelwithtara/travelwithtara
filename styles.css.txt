@@ -1,0 +1,160 @@
+/* GENERAL STYLES */
+body {
+    font-family: 'Arial', sans-serif; 
+    background-color: #f7f3f5; /* Light, soft pink/grey background */
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* HERO SECTION STYLING */
+.hero-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.soft-girl-hero {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    
+    /* Soft Aesthetic Filters */
+    filter: brightness(0.95) contrast(1.05) saturate(1.1); 
+    border-radius: 0 0 25px 25px; /* Soft round bottom corners */
+    box-shadow: 0 10px 20px rgba(220, 190, 200, 0.4); /* Soft pink/mauve shadow */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    margin: 0 0 10px 0;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ABOUT SECTION STYLING */
+.about-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 20px 60px 20px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%; /* Make it perfectly round */
+    margin-right: 40px;
+    box-shadow: 0 5px 15px rgba(255, 192, 203, 0.5); /* Soft pink glow */
+}
+
+.about-text h2 {
+    color: #a87e91; /* Soft mauve color */
+    font-size: 2em;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #d8c2d1; /* Pastel purple/pink */
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #b595a8;
+}
+
+/* BLOG PREVIEWS STYLING */
+.blog-previews {
+    padding: 0 20px;
+}
+
+.blog-previews h2 {
+    text-align: center;
+    color: #a87e91;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.post-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 45%; 
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+}
+
+.post-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    filter: sepia(0.05) brightness(1.05); /* Gentle filter for soft look */
+}
+
+.post-card h3 {
+    color: #a87e91;
+    padding: 15px 20px 0 20px;
+    font-size: 1.5em;
+}
+
+.post-card p {
+    padding: 0 20px;
+}
+
+.read-more {
+    display: block;
+    padding: 15px 20px;
+    text-align: right;
+    color: #8c6a7b;
+    text-decoration: none;
+    font-weight: bold;
+    border-top: 1px solid #f0f0f0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 1px solid #e0d9de;
+    color: #888;
+}
